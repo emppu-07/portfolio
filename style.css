@@ -3,14 +3,27 @@
 body {
     background: rgb(36,0,36);
     background-attachment: fixed;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+.container {
+    color: white;
 }
 
 .navbar{
     display: flex;
     flex-direction: row;
     background-color: rgba(255, 182, 192, 100);
-    border-radius: 4px;
     gap: 8px;
+    float: right;
 }
 
 .navbar a{
@@ -20,4 +33,15 @@ body {
 
 .navbar a:hover {
     color: black;
+}
+
+.introduction {
+    display: flex;
+    width: 256px;
+    background-color: bisque;
+    color: black;
+}
+.introduction img {
+    width: 64px;
+    height: 64px;
 }

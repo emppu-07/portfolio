@@ -12,9 +12,27 @@
         <a href="">Link 1</a>
         <a href="">Link 2</a>
         <a href="">Link 3</a>
+        <a id="count" style="color: black; text-decoration: overline underline;">0</a>
     </nav>
-    <div class="container">
-        <img src="photo-1-15484748487251000468362-15900766102531356492765.webp" alt="">
+
+    <div class="introduction">
+        <p>Hei! Olen Eemeli ja opiskelen ohjelmistokehittäjäksi Hervannan Tredussa. Opiskelen tällä hetkellä kyseisiä ohjelmointikieliä: HTML, CSS, JavaScripti ja PHP</p>
+        <img onclick="increaseNumber()" src="cookie.png" alt="">
     </div>
+    <div class="container">
+        <a href="/esim1/esim.html">Nettisivu esimerkki 1</a> <br>
+        <a href="/esim2/esim.html">Nettisivu esimerkki 2</a>
+    </div>
+
+
+
+    <script>
+    let count = 0
+
+    function increaseNumber(){
+        count++
+        document.getElementById("count").textContent = count;
+    }
+</script>
 </body>
 </html>
