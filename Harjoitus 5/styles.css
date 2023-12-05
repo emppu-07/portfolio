@@ -1,0 +1,215 @@
+
+
+body {
+    line-height: 1em;
+    background-color: #252530;
+    color: #fff;
+    text-shadow: #252530 1px 0 5px;
+    text-align: center;
+    margin: 0;
+    margin-top: 3em;
+    padding-left: 9em;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+
+  nav a.left-link {
+    float: left;
+    font-size: 32px;
+  }
+
+  nav a.right-links {
+    float: right;
+  }
+
+a:hover {
+    color: lightskyblue;
+}
+
+a {
+    color: lightcoral;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 9em;
+}
+
+div.image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3em;
+    height: 256px;
+    min-width: 20%;
+    border-radius: 1em;
+    
+    transition: transform 200ms ease-in-out;
+}
+div.image:hover{
+  transform: translate(0, -5px);
+}
+
+div.image2 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 3em;
+  height: 256px;
+  min-width: 47.5%;
+  border-radius: 1em;
+  
+  transition: transform 200ms ease-in-out;
+}
+div.image2:hover{
+  transform: translate(0, -5px);
+}
+
+div.image3 {
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 3em;
+  width: 100%;
+  height: 256px;
+  border-radius: 1em;
+  
+  transition: transform 200ms ease-in-out;
+}
+div.image3:hover{
+  transform: translate(0, -5px);
+}
+
+.description {
+    font-size: 13px;
+    line-height: 1.4;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    max-width: 90vh;
+    height: 115px;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 1.5px;
+    transform: rotate(-90deg) translate(-50%, 32px);
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.subscribe-div {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5EM;
+}
+
+.subscribe-form {
+  display: block;
+  margin-top: 0em;
+}
+h3.subscribe-title {
+  font-size: 2em;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span.subscribe-title{
+  font-size: 1em;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input {
+  margin-top: 1em;
+  color: white;
+  background-color: #252530;
+  border-right: 0;
+  border-top: 0;
+  border-left: 0;
+  text-align: center;
+  transition: width 150ms ease-in;
+  width: 200px;
+}
+input:hover{
+  width: 250px;
+}
+button {
+  margin-top: 1em;
+  background: #121212;
+  color: #fff;
+  border: 0;
+  width: 125px;
+  height: 70px;
+  border-radius: 1em;
+  font-size: 20px;
+  cursor:pointer;
+  transition: color 200ms ease-in-out;
+  transition: width 200ms ease-in-out;
+}
+button:hover {
+  background-color: #d79854;
+  color: black;
+  width: 150px;
+}
+
+footer {
+  float: left;
+  margin-top: 3em;
+  padding-right: 500px;
+  opacity: 50%;
+}
+
+.typewriter {
+  font-size: 1em;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  width: 15.5em;
+  animation: 
+    typing 3.5s steps(25, end) alternate infinite,
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  0% { width: 0 }
+  20% {width: 0;}
+  70% {width: 15.5em;}
+  100% { width: 15.5em }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(255, 255, 255); }
+}
+
+.joo {
+  float: left;
+  padding-right: 12em;
+}
