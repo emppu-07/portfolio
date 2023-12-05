@@ -3,7 +3,7 @@ let arvausmaara = 0;
 let pelimaara = 0;
 
 function aloitaPeli() {
-    arvattuNumero = Math.floor(Math.random() * 10) + 1;
+    arvattuNumero = Math.floor(Math.random() * 1000) + 1;
     arvausmaara = 0;
     pelimaara++;
     document.getElementById("pelimaara").innerHTML = pelimaara;
