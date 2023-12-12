@@ -1,9 +1,23 @@
+@keyframes kissa {
+    0% {background-color: hsl(0, 100%, 20%);}
+    15% {background-color: hsl(60, 100%, 20%);}
+    30% {background-color: hsl(120, 100%, 20%);}
+    50% {background-color: hsl(180, 100%, 20%);}
+    70% {background-color: hsl(240, 100%, 20%);}
+    80% {background-color: hsl(300, 100%, 20%);}
+    100% {background-color: hsl(360, 100%, 20%);}
+}
 
+p {
+    opacity: 1 !important; 
+}
 
 body {
-    background: rgb(36,0,36);
-    background-attachment: fixed;
-    color: white;
+    animation-name: kissa;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -16,14 +30,14 @@ a:hover {
 
 .container {
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);   
 }
 
 .navbar{
     display: flex;
     flex-direction: row;
-    background-color: rgba(255, 182, 192, 100);
+    background-color: rgba(0,0,0,0.5);
     gap: 8px;
-    float: right;
 }
 
 .navbar a{
@@ -32,16 +46,18 @@ a:hover {
 }
 
 .navbar a:hover {
-    color: black;
+    color: rgb(255, 0, 0);
 }
 
 .introduction {
     display: flex;
     width: 256px;
-    background-color: bisque;
-    color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 1;
 }
 .introduction img {
     width: 64px;
     height: 64px;
+    
 }

@@ -9,28 +9,28 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="">Link 1</a>
-        <a href="">Link 2</a>
-        <a href="">Link 3</a>
-        <a id="count" style="color: black; text-decoration: overline underline;">0</a>
+        <a href="./single page website/asetteludemo.html">Single Page Website</a> <br>
+        <a href="./Harjoitus 5/index.html">Maidosivu</a> <br>
+        <a href=".//arvauspeli/arvaa.html">Numeronarvauspeli</a> <br>
+        <a href="./reseptisivu/index.html">Reseptisivu</a>
+        <a href="./galleria/index.html">Photoshop Galleria (ensimmäinen javascriptiä sisältävä sivu)</a>
     </nav>
 
     <div class="introduction">
-        <p>Hei! Olen Eemeli ja opiskelen ohjelmistokehittäjäksi Hervannan Tredussa. Opiskelen tällä hetkellä kyseisiä ohjelmointikieliä: HTML, CSS, JavaScripti ja PHP.<br><br>Tykkään kuunnella musaa, pelata videopelejä ja kavereistani!</p>        <img onclick="increaseNumber()" src="cookie.png" alt="">
+        <p>Hei! Olen Eemeli ja opiskelen ohjelmistokehittäjäksi Hervannan Tredussa. Opiskelen tällä hetkellä kyseisiä ohjelmointikieliä: HTML, CSS, JavaScripti ja PHP.<br><br>Tykkään kuunnella musaa, pelata videopelejä ja kavereistani!</p>        <img onclick="increaseNumber()" src="cookie.png" alt="" style="cursor: pointer;">        
     </div>
-    <div class="container">
-        <h1>Minun parhaimpia töitä, jotka ovat worth to mention :3</h1>
-        <a href="/portfolio/single page website/asetteludemo.html">Single Page Website</a> <br>
-        <a href="./Harjoitus 5/index.html">Maidosivu</a> <br>
-        <a href="/portfolio/arvauspeli/arvaa.html">Numeronarvauspeli</a> <br>
-        <a href="/portfolio/reseptisivu/index.html">Reseptisivu</a>
-    </div>
+    <a id="count" style=" background-color: hsl(125, 50%, 40%);">0</a>
+    
 
 
+    <br><br>
+    <footer style="color:white;">
+        Eemeli Sarttila ©️
+    </footer>
 
     <script>
     let count = 0
-        //aaaa
+        //aaaa kommentti
     function increaseNumber(){
         count++
         document.getElementById("count").textContent = count;
