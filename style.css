@@ -56,6 +56,13 @@ a:hover {
     color: white;
     opacity: 1;
 }
+
+.skills {
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 1;
+}
 .introduction img {
     width: 64px;
     height: 64px;
