@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Jacquarda+Bastarda+9&display=swap');
 
 
+:root {
+  --background-color: rgba(36, 19, 30, 0.75);
+  --text-color: #bb93bb;
+  --h1-color: #a07ea0;
+  --hover: #b6a5b6;
+}
+
 body {
   font-family: "Courier Prime", serif;
   color: #aaa;
@@ -11,7 +18,7 @@ body {
   height: 100vh;
   overflow: hidden;
   position: relative; 
-  background: url('pics/blackrose.png'); 
+  background: url('pics/darkpurple.png'); 
   background-size: 128px;
   animation: animateBackground 200s linear infinite;
   margin-left: 15vw;
@@ -38,28 +45,28 @@ body {
 .left,
 .right {
   width: 20%;
-  border: 2px solid white;
+  border: 2px solid var(--text-color);
   padding: 12px;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: var(--background-color);
 }
 
 .center {
   width: 60%;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-top: 2px solid var(--text-color);
+  border-bottom: 2px solid var(--text-color);
   padding: 12px;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: var(--background-color);
 }
 
 
 marquee {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: var(--background-color);
   font-size: 16px;
-  color: white;
+  color: var(--text-color);
   text-transform: uppercase;
-  border: 2px solid white;
+  border: 2px solid var(--text-color);
 }
 
 ul {
@@ -73,21 +80,21 @@ li {
 
 a {
   text-decoration: none;
-  color: #aaa;
+  color: var(--h1-color);
   font-weight: bold;
 }
 
 a:hover {
-  color: #777777;
+  color: var(--hover);
 }
 
 h1 {
   font-size: 3em;
-  color: #777777;
+  color: var(--h1-color);
 }
 
-h3 {
-  color: #777777;
+h3, h2 {
+  color: var(--h1-color);
 }
 
 .left p,
@@ -103,14 +110,14 @@ img {
 
 
 .title {
-  color: #999999;
+  color: var(--h1-color);
   text-align: center;
 }
 
 hr {
   border: none;
   height: 2px;
-  background: linear-gradient(to right, transparent, #999999, transparent);
+  background: linear-gradient(to right, transparent, var(--h1-color), transparent);
   animation: fade 2s linear infinite;
 }
 
