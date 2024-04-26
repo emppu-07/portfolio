@@ -18,7 +18,7 @@ body {
   height: 100vh;
   overflow: hidden;
   position: relative; 
-  background: url('pics/darkpurple.png'); 
+  background: url('pics/stars2.gif'); 
   background-size: 128px;
   animation: animateBackground 200s linear infinite;
   margin-left: 15vw;
@@ -69,7 +69,7 @@ marquee {
   border: 2px solid var(--text-color);
 }
 
-ul {
+.left ul, .right ul {
   padding: 0;
   margin: 0;
 }
@@ -129,4 +129,20 @@ hr {
   100% {
     background-position: 200% 0;
   }
+}
+
+ul.skills {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.skills li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.skills li:before {
+  content: "ˣ";
+  padding-right: 5px;
 }
