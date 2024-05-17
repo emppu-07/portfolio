@@ -1,5 +1,5 @@
 # Pörtfolio
 
-Tämä repo sisältää minun portfolion, jossa
-on jotain projektejani ja tietoa itsestäni ja
-osaamisestani :D
+This repository includes my portfolio page
+
+There you can see stuff i have made, about me etc!
