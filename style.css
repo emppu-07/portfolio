@@ -192,13 +192,13 @@ pre {
       width: 90%;
   }
   .right {
-      display: none;
+      width: 90%;
+
   }
 
   .center {
     border: 2px solid var(--text-color);
       width: 90%;
-      padding: 0;
   }
 
   .bar {
