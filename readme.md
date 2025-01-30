@@ -1,5 +1,5 @@
 # Pörtfolio
 
-This repository includes my portfolio page
+tämä sivu redirectaa sut mun "henkilökohtaiselle" portfoliosivulle, syynä on koska väsäsin sitä niin paljon himassa ja oon vaa lisänny mun koulukäyttäjän collaboraattoriks!
 
-There you can see stuff i have made, about me etc!
+[Portfolio](https://emqqu.github.io/portfolio)
