@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40vh;
+}
+
+a {
+    color: limegreen;
+    font-size: 24px;
+    animation: flick 1s steps(1, end) infinite;
+}
+
+
+@keyframes flick {
+    0%, 100% {color: rgb(255, 255, 255);}
+    50% {color: limegreen;}
+}
